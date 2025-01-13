@@ -2,11 +2,14 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-wood': '#C8A165',
+      },
+    },
   },
   plugins: [],
-}
-
+};

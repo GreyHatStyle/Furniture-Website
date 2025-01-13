@@ -3,23 +3,22 @@ import { useState } from 'react'
 
 function Menu_xl() {
 
-    const [openMenu, setOpenMenu] = useState("[-100%]")
+    const [openMenu, setOpenMenu] = useState("-100%")
 
 
     const setMenuBar = () =>{
-        (openMenu === "[-100%]")? setOpenMenu("0") : setOpenMenu("[-100%]");
+        (openMenu === "-100%")? setOpenMenu("0") : setOpenMenu("-100%");
     }
 
+    
   return (
     <>  
     
     <div className='hidden md:block relative'>
 
         {/* Slide Menu */}
-        <div className={`
-                bg-slate-300 fixed h-[100vh] top-0 left-${openMenu}
-                transition-all
-            `}>
+        <div style={{left: openMenu}} className={` bg-slate-300 fixed h-[100vh] top-0 transition-all`}>
+            
             <button 
                 className='p-4 absolute right-0'
                 onClick={setMenuBar}    
@@ -48,7 +47,7 @@ function Menu_xl() {
 
         {/* Slide Menu Button */}
         <button 
-            className=''
+            className='p-4'
             onClick={setMenuBar}
         >
         <svg className='fill-black' 

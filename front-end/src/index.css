@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    html {
+      font-family: 'Poppins', sans-serif;
+    }
+}
+
+
+
+@layer utilities {
+    .btn-wood-clr {
+      @apply bg-[#C8A165];
+    }
+}
