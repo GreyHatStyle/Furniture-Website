@@ -10,6 +10,12 @@ export default {
         'custom-wood': '#C8A165',
       },
     },
+    screens: {
+      'sm': '500px',
+      'md': '768px',
+      'lg': '970px',
+      'xl': '1280px'
+    }
   },
   plugins: [],
 };

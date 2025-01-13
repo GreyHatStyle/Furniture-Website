@@ -15,4 +15,8 @@
     .btn-wood-clr {
       @apply bg-[#C8A165];
     }
+
+    .product-cards {
+      @apply hover:shadow-lg cursor-pointer transition-all duration-500;
+    }
 }
