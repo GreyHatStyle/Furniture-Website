@@ -1,0 +1,43 @@
+{
+    "id_1": {
+        "condition":"new",
+        "img": "./Content/Featured_Products/keep-wood.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹299.00",
+        "rating" : "3.5"
+    }, 
+
+    "id_2": {
+        "condition":"new",
+        "img": "./Content/Featured_Products/bowl-wood.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹299.00",
+        "rating" : "3.5"
+    },
+    "id_3": {
+        "condition":"new",
+        "img": "./Content/Featured_Products/egg-wood.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹299.00",
+        "rating" : "4.0"
+    },
+    "id_4": {
+        "condition":"new",
+        "img": "./Content/Featured_Products/small-wood.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹199.00",
+        "rating" : "3.5"
+    },
+    "id_5": {
+        "condition":"new",
+        "img": "./Content/Featured_Products/big-stool.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹399.00",
+        "rating" : "4.5"
+    }
+}

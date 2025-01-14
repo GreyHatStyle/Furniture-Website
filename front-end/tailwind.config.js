@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'custom-wood': '#C8A165',
+        'red-wood' : '#C87065',
       },
     },
     screens: {
