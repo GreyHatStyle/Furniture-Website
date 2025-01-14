@@ -13,10 +13,12 @@ function Discount() {
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 0,
+        autoplay: true,
+        pauseOnHover: true,
+        autoplaySpeed: 2000,
     }
 
     const discount_products = Object.entries(discounts);
-    console.log(discount_products)
 
     return (
     

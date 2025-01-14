@@ -1,0 +1,67 @@
+{
+    "id_1": {
+        "condition":"new",
+        "img": "./Content/Products_Online/keep-wood.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹299.00",
+        "rating" : 3.5
+    }, 
+
+    "id_2": {
+        "condition":"sale",
+        "img": "./Content/Products_Online/bowl-wood.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹299.00",
+        "rating" : 3.5
+    },
+    "id_3": {
+        "condition":"new",
+        "img": "./Content/Products_Online/egg-wood.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹299.00",
+        "rating" : 4.0
+    },
+    "id_4": {
+        "condition":"new",
+        "img": "./Content/Products_Online/small-wood.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹199.00",
+        "rating" : 3.5
+    },
+    "id_5": {
+        "condition":"new",
+        "img": "./Content/Products_Online/big-stool.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹399.00",
+        "rating" : 3.8
+    },
+    "id_6": {
+        "condition":"new",
+        "img": "./Content/Products_Online/chair.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹1099.00",
+        "rating" : 4.01
+    },
+    "id_7": {
+        "condition":"new",
+        "img": "./Content/Products_Online/glass-table.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹1599.00",
+        "rating" : 4.5
+    },
+    "id_8": {
+        "condition":"new",
+        "img": "./Content/Products_Online/case-wood.png",
+        "name": "Dummy Name",
+        "category" : "Furniture",
+        "price" : "₹399.00",
+        "rating" : 4.1
+    }
+}
