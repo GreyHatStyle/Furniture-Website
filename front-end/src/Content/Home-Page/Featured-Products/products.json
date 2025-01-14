@@ -5,16 +5,16 @@
         "name": "Dummy Name",
         "category" : "Furniture",
         "price" : "₹299.00",
-        "rating" : "3.5"
+        "rating" : 3.5
     }, 
 
     "id_2": {
-        "condition":"new",
+        "condition":"sale",
         "img": "./Content/Featured_Products/bowl-wood.png",
         "name": "Dummy Name",
         "category" : "Furniture",
         "price" : "₹299.00",
-        "rating" : "3.5"
+        "rating" : 3.5
     },
     "id_3": {
         "condition":"new",
@@ -22,7 +22,7 @@
         "name": "Dummy Name",
         "category" : "Furniture",
         "price" : "₹299.00",
-        "rating" : "4.0"
+        "rating" : 4.0
     },
     "id_4": {
         "condition":"new",
@@ -30,7 +30,7 @@
         "name": "Dummy Name",
         "category" : "Furniture",
         "price" : "₹199.00",
-        "rating" : "3.5"
+        "rating" : 3.5
     },
     "id_5": {
         "condition":"new",
@@ -38,6 +38,6 @@
         "name": "Dummy Name",
         "category" : "Furniture",
         "price" : "₹399.00",
-        "rating" : "4.5"
+        "rating" : 4.5
     }
 }

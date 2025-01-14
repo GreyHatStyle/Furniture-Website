@@ -1,0 +1,15 @@
+{
+    "id_1":{
+        "img":"./Content/Discounts/mess-tableset.png",
+        "discount" : "50%",
+        "price" : "₹21999.00",
+        "about_product": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto voluptate quo explicabo quisquam quia quaerat minima similique eligendi repellat harum doloremque possimus pariatur eaque."
+    }, 
+
+    "id_2": {
+        "img":"./Content/Discounts/sofa.png",
+        "discount" : "55%",
+        "price" : "₹31999.00",
+        "about_product": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto voluptate quo explicabo quisquam quia quaerat minima similique eligendi repellat harum doloremque possimus pariatur eaque."
+    }
+}

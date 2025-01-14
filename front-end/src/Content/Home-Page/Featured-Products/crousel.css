@@ -3,7 +3,7 @@
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.0);
-  z-index: 10;
+  z-index: 1;
 }
 
 /* .slick-prev:hover,
@@ -48,6 +48,7 @@
 }
 
 @media (max-width: 640px) {
+  /* These are arrows */
   .slick-prev,
   .slick-next {
     width: 30px;
@@ -57,5 +58,26 @@
   .slick-prev:before,
   .slick-next:before {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 500px){
+  .slick-prev,
+  .slick-next {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slick-next{
+    right: 1%;
+  }
+
+  .slick-prev{
+    left: 1%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 20px;
   }
 }
