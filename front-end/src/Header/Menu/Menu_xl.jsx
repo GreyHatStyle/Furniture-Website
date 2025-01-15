@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Menu_xl() {
 
@@ -17,7 +18,7 @@ function Menu_xl() {
     <div className='hidden md:block relative'>
 
         {/* Slide Menu */}
-        <div style={{left: openMenu}} className={` bg-slate-300 fixed h-[100vh] top-0 transition-all`}>
+        <div style={{left: openMenu}} className={` bg-[#EEEE] fixed h-[100vh] top-0 transition-all`}>
             
             <button 
                 className='p-4 absolute right-0'
@@ -31,15 +32,15 @@ function Menu_xl() {
             <ul className='mt-11'>
                 {/* Did 40% in px to avoid hover glitch, (hover was not giving color to whole button) */}
                 <li>
-                    <button className='px-[40%] py-3 hover:bg-slate-400'>Home</button>
+                    <Link to='' className='px-[40%] py-3 block hover:bg-custom-wood hover:text-white transition-all'>Home</Link>
                 </li>
 
                 <li>
-                <button className='px-[40%] py-3 hover:bg-slate-400 ' >About</button>
+                <Link to='/about' className='px-[40%] py-3 block hover:bg-custom-wood hover:text-white transition-all'>About</Link>
                 </li>
 
                 <li>
-                <button className='px-[5em] py-3 hover:bg-slate-400'>Contact</button>
+                <Link to='/contact' className='px-[5em] py-3 block hover:bg-custom-wood hover:text-white transition-all'>Contact</Link>
                 </li>
 
             </ul>

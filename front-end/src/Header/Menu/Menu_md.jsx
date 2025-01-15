@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Menu_md() {
   const [menuStatus, setMenuStatus] = useState("max-h-0")
@@ -26,18 +27,25 @@ function Menu_md() {
       
       <div className={`flex flex-col items-center px-3 pb-0 overflow-hidden ${menuStatus} 
                       transition-all duration-500`}>
-        <button className='bg-white text-gray-600 text-[0.7em] font-semibold w-[100%] 
+        <Link to='' className='bg-white text-gray-600 text-[0.7em] font-semibold w-[100%] 
             border-b-[1px] border-gray-400 text-left 
             p-3 pl-7 hover:text-custom-wood
-            hover:transition-all hover:duration-[350ms]'>HOME</button>
-        <button className='bg-white text-gray-600 text-[0.7em] font-semibold w-[100%] 
+            hover:transition-all hover:duration-[350ms]'>
+              
+          HOME
+        </Link>
+        <Link to='/about' className='bg-white text-gray-600 text-[0.7em] font-semibold w-[100%] 
             border-b-[1px] border-gray-400 text-left 
             p-3 pl-7 hover:text-custom-wood
-            hover:transition-all hover:duration-[350ms]'>ABOUT</button>
-        <button className='bg-white text-gray-600 text-[0.7em] font-semibold w-[100%] 
+            hover:transition-all hover:duration-[350ms]'>
+        ABOUT
+        </Link>
+        <Link to='/contact' className='bg-white text-gray-600 text-[0.7em] font-semibold w-[100%] 
             border-b-[1px] border-gray-400 text-left 
             p-3 pl-7 hover:text-custom-wood
-            hover:transition-all hover:duration-[350ms] mb-3'>CONTACT</button>
+            hover:transition-all hover:duration-[350ms] mb-3'>
+        CONTACT
+        </Link>
       </div>
           
             
