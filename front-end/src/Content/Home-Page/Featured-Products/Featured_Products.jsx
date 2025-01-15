@@ -54,7 +54,7 @@ function Featured_Products() {
                     <div 
                     key={id} 
                     className="card w-full px-2 relative hover:shadow-md cursor-pointer rounded-md
-                                transition-shadow delay-150 shadow-black">
+                                transition-all delay-150 shadow-black hover:scale-[1.01]">
                         <img src={product.img} alt="" className="w-full h-[200px] object-cover py-1" />
                         <span className={`absolute top-4 left-4 
                               ${(product.condition.toLowerCase() === 'sale') ? "bg-red-wood" : "btn-wood-clr"} px-2 rounded-md text-white`}>{product.condition}</span>

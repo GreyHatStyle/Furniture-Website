@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import newArivals from "./NewArivals.json";
 import bestSellers from "./BestSellers.json";
 import mostViewed from "./MostViewed.json";
@@ -13,7 +13,7 @@ function PurchaseOnline() {
   const [productsArray, setProductsArray] = useState(newArivalsArray);
   const [selectedCategory, setSelectedCategory] = useState("NewA");
 
-  const cateogryChanger = (category) => {
+  const cateogryChanger = useCallback( (category) => {
     setSelectedCategory(category);
     if (category === "NewA") {
       setProductsArray(newArivalsArray);
@@ -24,7 +24,7 @@ function PurchaseOnline() {
     } else if (category === "Disc") {
       setProductsArray(discountArray);
     }
-  };
+  }, [productsArray, newArivalsArray, bestSellersArray, discountArray, setProductsArray] );
 
   return (
     <div>
@@ -79,7 +79,8 @@ function PurchaseOnline() {
 
       <div className="mx-[1em] sm:mx-[5em] grid grid-cols-[repeat(auto-fit,minmax(270px,1fr))] gap-10 place-items-center">
         {productsArray.map(([id, product]) => (
-          <div className="max-w-[270px] p-2 rounded-lg hover:shadow-2xl cursor-pointer transition-shadow delay-150" key={id}>
+          <div className="max-w-[270px] p-2 rounded-lg hover:shadow-2xl cursor-pointer delay-100
+          hover:scale-105 transition-all" key={id}>
             <img src={product.img} alt={product.name} />
 
             <div className="grid grid-cols-2 grid-rows-1 justify-between">
