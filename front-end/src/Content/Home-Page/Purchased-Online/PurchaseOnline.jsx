@@ -17,11 +17,14 @@ function PurchaseOnline() {
     setSelectedCategory(category);
     if (category === "NewA") {
       setProductsArray(newArivalsArray);
-    } else if (category === "BestS") {
+    } 
+    else if (category === "BestS") {
       setProductsArray(bestSellersArray);
-    } else if (category === "MostV") {
+    } 
+    else if (category === "MostV") {
       setProductsArray(mostViewedArray);
-    } else if (category === "Disc") {
+    } 
+    else if (category === "Disc") {
       setProductsArray(discountArray);
     }
   }, [productsArray, newArivalsArray, bestSellersArray, discountArray, setProductsArray] );
