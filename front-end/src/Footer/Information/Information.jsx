@@ -20,7 +20,7 @@ function Information() {
                 </div>
                 <div className='flex flex-row gap-[4em]'>
                     <h1 className='font-bold'>Email: </h1>
-                    <p>your-email2010@gmail.com</p>
+                    <p>company-email2010@gmail.com</p>
                 </div>
             </div>
         </div>

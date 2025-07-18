@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function AbHead() {
+function PageHead({middle_content, page_name}) {
     const bg_img_url = "./Content/About/about-page.png";
 
     return (
@@ -16,7 +16,7 @@ function AbHead() {
                     bg-black/60 flex justify-center items-center
                     cursor-default
                     '>
-                        ABOUT US
+                        {middle_content}
                     </div>
 
                     <div
@@ -29,11 +29,11 @@ function AbHead() {
                         className='hover:text-red-500 transition-all'
                         > HOME </Link>
                         
-                        / ABOUT
+                        / {page_name}
                     </div>
             </div>
         </>
     )
 }
 
-export default AbHead    
+export default PageHead 

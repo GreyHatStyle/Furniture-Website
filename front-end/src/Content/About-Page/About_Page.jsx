@@ -1,11 +1,14 @@
 import React from 'react'
-import AbHead from './AbHead'
+import PageHead from '../PageHead'
 import AbContent from './AbContent'
 
 function About_Page() {
   return (
     <>
-      <AbHead/>
+      <PageHead 
+      middle_content={"ABOUT US"} 
+      page_name={"ABOUT"}
+      />
       <AbContent/>
     </>
   )
